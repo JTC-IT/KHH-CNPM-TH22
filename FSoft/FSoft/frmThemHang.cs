@@ -16,5 +16,11 @@ namespace FSoft
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmNhap nhap = new frmNhap();
+            nhap.ShowDialog();
+        }
     }
 }

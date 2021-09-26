@@ -8,3 +8,5 @@ D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.csproj.GenerateResource.cache
 D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.csproj.CoreCompileInputs.cache
 D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.exe
 D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.pdb
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.frmThemHang.resources
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.frmNhap.resources
