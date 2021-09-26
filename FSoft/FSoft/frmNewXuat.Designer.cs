@@ -362,7 +362,7 @@ namespace FSoft
             this.Controls.Add(this.label1);
             this.Name = "frmNewXuat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tạo mới phiếu xuất hàng";
+            this.Text = "Xuất hàng";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
