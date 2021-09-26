@@ -1,0 +1,10 @@
+D:\Code\C#\FSoft\FSoft\bin\Debug\FSoft.exe.config
+D:\Code\C#\FSoft\FSoft\bin\Debug\FSoft.exe
+D:\Code\C#\FSoft\FSoft\bin\Debug\FSoft.pdb
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.csproj.AssemblyReference.cache
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.Form1.resources
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.Properties.Resources.resources
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.csproj.GenerateResource.cache
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.csproj.CoreCompileInputs.cache
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.exe
+D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.pdb
