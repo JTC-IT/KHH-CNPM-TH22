@@ -44,6 +44,7 @@ namespace FSoft
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -189,11 +190,24 @@ namespace FSoft
             this.richTextBox2.TabIndex = 16;
             this.richTextBox2.Text = "";
             // 
+            // button1
+            // 
+            this.button1.Image = global::FSoft.Properties.Resources.add_32px;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(877, 443);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 37);
+            this.button1.TabIndex = 37;
+            this.button1.Text = "Tạo phiếu";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // frmNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1025, 492);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.label7);
@@ -234,5 +248,6 @@ namespace FSoft
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.Button button1;
     }
 }
