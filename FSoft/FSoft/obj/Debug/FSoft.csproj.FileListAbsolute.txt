@@ -12,3 +12,17 @@ D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.frmThemHang.resources
 D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.frmNhap.resources
 D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.frmBanHang.resources
 D:\Code\C#\FSoft\FSoft\obj\Debug\FSoft.frmNewXuat.resources
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\bin\Debug\FSoft.exe.config
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\bin\Debug\FSoft.exe
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\bin\Debug\FSoft.pdb
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.csproj.AssemblyReference.cache
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.Form1.resources
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.frmBanHang.resources
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.frmNewXuat.resources
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.frmNhap.resources
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.frmThemHang.resources
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.Properties.Resources.resources
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.csproj.GenerateResource.cache
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.csproj.CoreCompileInputs.cache
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.exe
+D:\Code\F2SOFT\KHH-CNPM-TH22\FSoft\FSoft\obj\Debug\FSoft.pdb

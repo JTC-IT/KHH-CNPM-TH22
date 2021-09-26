@@ -210,6 +210,7 @@ namespace FSoft
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Name = "frmNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nhập hàng";
             this.ResumeLayout(false);
             this.PerformLayout();
