@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace FSoft
 {
-    public partial class frmThemHang : Form
+    public partial class frmNewXuat : Form
     {
-        public frmThemHang()
+        public frmNewXuat()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmNhap nhap = new frmNhap();
-            nhap.ShowDialog();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace FSoft
 {
-    partial class frmThemHang
+    partial class frmBanHang
     {
         /// <summary>
         /// Required designer variable.
@@ -31,13 +31,13 @@ namespace FSoft
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,7 +47,6 @@ namespace FSoft
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -64,7 +63,7 @@ namespace FSoft
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1182, 77);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 1;
             // 
             // textBox1
             // 
@@ -72,34 +71,42 @@ namespace FSoft
             this.textBox1.Location = new System.Drawing.Point(12, 83);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(269, 34);
-            this.textBox1.TabIndex = 1;
+            this.textBox1.TabIndex = 3;
             // 
-            // dateTimePicker1
+            // button6
             // 
-            this.dateTimePicker1.CustomFormat = "dd-MM-yyyy";
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(551, 90);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(123, 27);
-            this.dateTimePicker1.TabIndex = 3;
+            this.button6.Location = new System.Drawing.Point(1094, 86);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(76, 34);
+            this.button6.TabIndex = 16;
+            this.button6.Text = "Quý";
+            this.button6.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // button5
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(485, 95);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 17);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Từ ngày";
+            this.button5.Location = new System.Drawing.Point(1012, 87);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(76, 34);
+            this.button5.TabIndex = 15;
+            this.button5.Text = "Tháng";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(928, 86);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(76, 34);
+            this.button4.TabIndex = 14;
+            this.button4.Text = "Tuần";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(679, 95);
+            this.label2.Location = new System.Drawing.Point(679, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
-            this.label2.TabIndex = 6;
+            this.label2.TabIndex = 13;
             this.label2.Text = "Đến ngày";
             // 
             // dateTimePicker2
@@ -107,37 +114,29 @@ namespace FSoft
             this.dateTimePicker2.CustomFormat = "dd-MM-yyyy";
             this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(754, 90);
+            this.dateTimePicker2.Location = new System.Drawing.Point(754, 87);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(123, 27);
-            this.dateTimePicker2.TabIndex = 5;
+            this.dateTimePicker2.TabIndex = 12;
             // 
-            // button4
+            // label1
             // 
-            this.button4.Location = new System.Drawing.Point(928, 89);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(76, 34);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Tuần";
-            this.button4.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(485, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 17);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Từ ngày";
             // 
-            // button5
+            // dateTimePicker1
             // 
-            this.button5.Location = new System.Drawing.Point(1012, 90);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(76, 34);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Tháng";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(1094, 89);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(76, 34);
-            this.button6.TabIndex = 9;
-            this.button6.Text = "Quý";
-            this.button6.UseVisualStyleBackColor = true;
+            this.dateTimePicker1.CustomFormat = "dd-MM-yyyy";
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(551, 87);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(123, 27);
+            this.dateTimePicker1.TabIndex = 10;
             // 
             // dataGridView1
             // 
@@ -150,78 +149,69 @@ namespace FSoft
             this.Column5,
             this.Column6,
             this.Column7,
-            this.Column8,
-            this.Column9});
+            this.Column8});
             this.dataGridView1.Location = new System.Drawing.Point(12, 142);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(1158, 556);
-            this.dataGridView1.TabIndex = 10;
+            this.dataGridView1.TabIndex = 17;
             // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.HeaderText = "Mã phiếu";
+            this.Column1.HeaderText = " Mã phiếu";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.HeaderText = "Nhà cung cấp";
+            this.Column2.HeaderText = "Khách hàng";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.HeaderText = "Ngày nhập";
+            this.Column3.HeaderText = "Địa chỉ";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.HeaderText = "Tổng tiền";
+            this.Column4.HeaderText = "Lý do xuất kho";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             // 
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.HeaderText = "Đã trả";
+            this.Column5.HeaderText = "Xuất tại kho";
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             // 
             // Column6
             // 
             this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column6.HeaderText = "Còn nợ";
+            this.Column6.HeaderText = "Địa điểm";
             this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             // 
             // Column7
             // 
             this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column7.HeaderText = "Nhân viên";
+            this.Column7.HeaderText = "Ngày xuất";
             this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
             // 
             // Column8
             // 
             this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column8.HeaderText = "Ghi chú";
+            this.Column8.HeaderText = "Tổng tiền";
             this.Column8.MinimumWidth = 6;
             this.Column8.Name = "Column8";
-            // 
-            // Column9
-            // 
-            this.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column9.HeaderText = "Chi tiết";
-            this.Column9.MinimumWidth = 6;
-            this.Column9.Name = "Column9";
-            this.Column9.Text = "Chi tiết";
             // 
             // button3
             // 
@@ -230,7 +220,7 @@ namespace FSoft
             this.button3.Location = new System.Drawing.Point(287, 83);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(101, 34);
-            this.button3.TabIndex = 2;
+            this.button3.TabIndex = 4;
             this.button3.Text = "Tìm kiếm";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = true;
@@ -260,7 +250,7 @@ namespace FSoft
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // frmThemHang
+            // frmBanHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -276,9 +266,9 @@ namespace FSoft
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "frmThemHang";
+            this.Name = "frmBanHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Nhập kho";
+            this.Text = "Xuất kho";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -291,15 +281,15 @@ namespace FSoft
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -309,6 +299,5 @@ namespace FSoft
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.DataGridViewButtonColumn Column9;
     }
 }
