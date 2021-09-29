@@ -121,6 +121,9 @@
   <data name="import_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\import_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="search_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="graph_report_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\graph_report_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,8 +133,17 @@
   <data name="rewind_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rewind_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="add_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sort_right_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sort_right_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_new_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_new_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="overview_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\overview_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,10 +166,22 @@
   <data name="sort_left_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sort_left_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download_20px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_20px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="product_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\product_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_25px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_25px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -21,11 +21,7 @@ namespace FSoft
         {
             frmNhap nhap = new frmNhap();
             nhap.ShowDialog();
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        }        
+        
     }
 }
